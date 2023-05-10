@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Tower Zenith</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="https://cdn.icon-icons.com/icons2/318/PNG/512/Darth-Vader-icon_34501.png" alt="logo">
+                    </a>
+                </li>
+                <ul class="itemsNav">
+                    <li>
+                        <a href="./index.html">Reclutas</a>
+                        <div class="animationNav"></div>
+                    </li>
+                    <li>
+                        <a href="./configuraciones.html">Configuraciones</a>
+                        <div class="animationNav"></div>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+
+    <div class="formulario efectOpacity">
+            <form id="agregar">
+                <h1 class="title efectOpacity">¡Agregar un nuevo recluta!</h1>
+                <div class="blockInput">
+                    <label for="">Nombre</label>
+                    <input  type="text" id="nombre" placeholder="Nombre">
+                </div>
+
+                <div class="blockInput">
+                    <label for="">edad</label>
+                    <input  id="edad" type="text" placeholder="edad">
+                </div>
+
+                <div class="blockInput">
+                    <label for="">tel</label>
+                    <input  type="text" id="tel" placeholder="tel">
+                </div>
+
+                <div class="blockInput">
+                    <label for="">email</label>
+                    <input  type="email" id="email" placeholder="email">
+                </div>
+
+                <div>
+                    <div class="blockInput">
+                        <label for="">direccion</label>
+                        <input  type="text" id="direccion" placeholder="direccion">
+                    </div>
+    
+                    <div class="blockInput">
+                        <label for="">fecha_nacimiento</label>
+                        <input  type="date" id="fecha_nacimiento" placeholder="fecha_nacimiento">
+                    </div>
+    
+                    <div class="blockInput">
+                        <label for="">numero_identificacion</label>
+                        <input  type="text" id="numero_identificacion" placeholder="numero_identificacion">
+                    </div>
+    
+                    <div class="blockInput">
+                        <label for="">fecha_ingreso</label>
+                        <input  type="date" id="fecha_ingreso" placeholder="fecha_ingreso">
+                    </div>
+    
+                    <div class="blockInput">
+                        <label for="">team</label>
+                        <div>
+                            <select name="team" id="selectTeam">
+                                <option value="1">Eligir...</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <input class="send" type="submit" value="Agregar">
+            </form>
+        </div> 
+
+    <div class="editar_form">
+        <form>
+            <h1 class="title efectOpacity">Editar recluta!</h1>
+            <div class="blockInput">
+                <label for="">Nombre</label>
+                <input  type="text" id="nombre2" placeholder="Nombre">
+            </div>
+
+            <div class="blockInput">
+                <label for="">edad</label>
+                <input  id="edad2" type="text" placeholder="edad">
+            </div>
+
+            <div class="blockInput">
+                <label for="">tel</label>
+                <input  type="text" id="tel2" placeholder="tel">
+            </div>
+
+            <div class="blockInput">
+                <label for="">email</label>
+                <input  type="email" id="email2" placeholder="email">
+            </div>
+
+            <div>
+                <div class="blockInput">
+                    <label for="">direccion</label>
+                    <input  type="text" id="direccion2" placeholder="direccion">
+                </div>
+
+                <div class="blockInput">
+                    <label for="">fecha_nacimiento</label>
+                    <input  type="date" id="fecha_nacimiento2" placeholder="fecha_nacimiento">
+                </div>
+
+                <div class="blockInput">
+                    <label for="">numero_identificacion</label>
+                    <input  type="text" id="numero_identificacion2" placeholder="numero_identificacion">
+                </div>
+
+                <div class="blockInput">
+                    <label for="">fecha_ingreso</label>
+                    <input  type="date" id="fecha_ingreso2" placeholder="fecha_ingreso">
+                </div>
+
+                <div class="blockInput">
+                    <label for="">team</label>
+                    <div>
+                        <select name="team" id="selectTeam2">
+                            <option value="1">Eligir...</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <input class="send" type="submit" value="Editar">
+        </form>
+    </div> 
+
+<div>
+        </form>
+    </div>
+
+        <div>
+            <h1 style="margin-top: 100px;" class="title efectOpacity">Lista de reclutas</h1>
+
+            <div class="cards">
+
+            </div>
+        </div>
+
+
+        <div>
+            <h1 style="margin-top: 100px;" class="title efectOpacity">Filtros</h1>
+
+            <div style="margin-top: 50px;">
+                <h1 style="color: white;">Los reclutas que lleven 2 meses en el programa</h1>
+                <div id="meses">
+
+                </div>
+            </div>
+
+
+            <div style="margin-top: 50px;">
+                <h1 style="color: white;">Se encuentren asociados a un team especifico.</h1>
+                <div id="teamAsociado">
+
+                </div>
+            </div>
+
+
+            <div style="margin-top: 50px;">
+                <h1 style="color: white;">reclutas menores de edad.</h1>
+                <div id="menores">
+
+                </div>
+            </div>
+
+
+
+            <div style="margin-top: 50px;">
+                <h1 style="color: white;">reprobaron un modulo.</h1>
+                <div id="reprobaron">
+
+                </div>
+            </div>
+
+
+            <div style="margin-top: 50px;">
+                <h1 style="color: white;">módulos que se encuentren asignados a un
+                skill especifico.</h1>
+                <div id="modulo_estudiado">
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="ventanaEmergente"></div>
+    <!-- <footer class="efectOpacity">
+        <h4><b>Hecho por Juan Diego Ramirez 😁</b></h4>
+    </footer> -->
+
+    <script src="./js/animaciones.js"></script>
+    <script src="./js/ventanaEmergente.js"></script>
+    <script type="module" src="./js/mostrar.js"></script>
+    <script type="module" src="./js/agregar.js"></script>
+    <script type="module" src="./js/eliminar.js"></script>
+    <script type="module" src="./js/editar.js"></script>
+    <script type="module" src="./js/filtros.js"></script>
+</body>
+</html>

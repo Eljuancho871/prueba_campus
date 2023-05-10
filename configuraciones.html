@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Tower Zenith</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="https://cdn.icon-icons.com/icons2/318/PNG/512/Darth-Vader-icon_34501.png" alt="logo">
+                    </a>
+                </li>
+                <ul class="itemsNav">
+                    <li>
+                        <a href="./index.html">Reclutas</a>
+                        <div class="animationNav"></div>
+                    </li>
+                    <li>
+                        <a href="#">Configuraciones</a>
+                        <div class="animationNav"></div>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="s">
+        <div class="efectOpacity">
+            <div style="margin-bottom: 20px;">
+                <center><span style="color: white;text-align: center;">¡Teams!</span>
+                    <button id="btn_add_team" style="background-color: green;color: white">Agregar</button></center>
+            </div>
+            <table id="table_team">
+
+                <tr>
+                    <th>Nombre</th>
+                    <th>Trainer</th>
+                    <th>Acciones</th>
+                </tr>         
+            </table>
+        </div> 
+
+    </section>
+
+
+    <section class="s">
+        <div class="efectOpacity">
+            <div style="margin-bottom: 20px;">
+                <center><span style="color: white;text-align: center;">¡Skill!</span>
+                    <button id="btn_add_skill" style="background-color: green;color: white">Agregar</button></center>
+            </div>
+            <table id="table_skill">
+
+                <tr>
+                    <th>nombre</th>
+                    <th>Acciones</th>
+                </tr>         
+            </table>
+        </div> 
+
+    </section>
+
+
+    <section class="s">
+        <div class="efectOpacity">
+            <div style="margin-bottom: 20px;">
+                <center><span style="color: white;text-align: center;">¡Modulo Skill!</span>
+                    <button id="btn_add_modulo" style="background-color: green;color: white">Agregar</button></center>
+            </div>
+            <table id="table_modulos">
+
+                <tr>
+                    <th>nombre</th>
+                    <th>id_skill</th>
+                    <th>Acciones</th>
+                </tr>         
+            </table>
+        </div> 
+
+    </section>
+
+    <section class="s">
+        <div class="efectOpacity">
+            <div style="margin-bottom: 20px;">
+                <center><span style="color: white;text-align: center;">¡Evaluacion!</span>
+                    <button id="btn_add_nota" style="background-color: green;color: white">Agregar</button></center>
+            </div>
+            <table id="table_nota">
+
+                <tr>
+                    <th>Id_recluta,</th>
+                    <th>id_modulo,</th>
+                    <th>nota,</th>
+                    <th>Acciones</th>
+                </tr>         
+            </table>
+        </div> 
+
+    </section>
+
+    <section id="sectionForm"></section>
+
+    <div class="ventanaEmergente"></div>
+    <!-- <footer class="efectOpacity">
+        <h4><b>Hecho por Juan Diego Ramirez 😁</b></h4>
+    </footer> -->
+
+    <script src="./js/animaciones.js"></script>
+    <script src="./js/ventanaEmergente.js"></script>
+    <script type="module" src="./js/mostrar_extra.js"></script>
+</body>
+</html>

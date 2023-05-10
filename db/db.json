@@ -1,0 +1,100 @@
+{
+  "reclutas": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "edad": 17,
+      "telefono": 100000,
+      "email": "juan@gmail.com",
+      "direccion": "colombia #17",
+      "fecha_Nacimiento": "16 febrero 2006",
+      "numero_Identificaion": 2222222,
+      "fecha_Ingreso": "12/32/231",
+      "id_Team": "1"
+    },
+    {
+      "nombre": "luna1",
+      "edad": "22",
+      "telefono": "23213",
+      "email": "dsadsa@fdsada",
+      "direccion": "dsadsa",
+      "fecha_Nacimiento": "2023-05-11",
+      "fecha_Ingreso": "2023-05-23",
+      "id_Team": "1",
+      "numero_Identificaion": "3221321",
+      "id": 2
+    },
+    {
+      "nombre": "3333333333Juan",
+      "edad": "19",
+      "telefono": "3213",
+      "email": "dsadsa@fdsadaSAsA",
+      "direccion": "3213",
+      "fecha_Nacimiento": "2023-05-12",
+      "fecha_Ingreso": "2023-01-12",
+      "id_Team": "2",
+      "numero_Identificaion": "321321",
+      "id": 3
+    },
+    {
+      "nombre": "Juan",
+      "edad": "321321",
+      "telefono": "2321312",
+      "email": "dsadsa@fdsada",
+      "direccion": "fdsfsd",
+      "fecha_Nacimiento": "2023-05-23",
+      "numero_Identificaion": "3213",
+      "fecha_Ingreso": "2023-05-29",
+      "id_Team": "2",
+      "id": 4
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "nombre": "Apolo",
+      "trainer": "carlos"
+    },
+    {
+      "id": 2,
+      "nombre": "Sputnik",
+      "trainer": "miguel"
+    }
+  ],
+  "skill": [
+    {
+      "nombre": "prueba",
+      "id": 3
+    },
+    {
+      "nombre": "prueba2",
+      "id": 4
+    }
+  ],
+  "modulo_skill": [
+    {
+      "nombre": "dasdasdas",
+      "id_skill": "4",
+      "id": 2
+    },
+    {
+      "nombre": "sssssssssssssssssss",
+      "id_skill": "3",
+      "id": 3
+    }
+  ],
+  "evaluacion": [
+    {
+      "nota": "2",
+      "id_modulo": "2",
+      "id_recluta": "1",
+      "id": 1
+    },
+    {
+      "nota": "3",
+      "id_modulo": "3",
+      "id_recluta": "2",
+      "id": 2
+    }
+  ]
+}
